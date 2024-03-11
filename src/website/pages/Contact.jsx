@@ -85,6 +85,7 @@ function Contact() {
                     <div className="row g-3">
                       <div className="col-md-6">
                         <div className="form-floating">
+                          <label htmlFor="name">Your Name</label>
                           <input
                             type="text"
                             name="name"
@@ -94,11 +95,11 @@ function Contact() {
                             id="name"
                             placeholder="Your Name"
                           />
-                          <label htmlFor="name">Your Name</label>
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-floating">
+                          <label htmlFor="email">Your Email</label>
                           <input
                             type="email"
                             name="email"
@@ -108,7 +109,6 @@ function Contact() {
                             id="email"
                             placeholder="Your Email"
                           />
-                          <label htmlFor="email">Your Email</label>
                         </div>
                       </div>
 
