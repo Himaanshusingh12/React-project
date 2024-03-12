@@ -23,7 +23,7 @@ function Manage_emp() {
     fetch();
   };
 
-  // here
+  // edit profile
 
   const [formvalue, setFormvalue] = useState({
     id: "",
