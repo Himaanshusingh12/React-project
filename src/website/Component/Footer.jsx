@@ -123,14 +123,22 @@ function Footer() {
                   All Rights Reserved
                 </p>
               </div>
+
               <div className="col-md-6 template-by">
                 <p>
                   Template By <a href="https://htmlcodex.com">HTML Codex</a>
                 </p>
               </div>
+              <Link
+                to="/admin/login"
+                className="btn btn-danger rounded-0 py-4 px-lg-5 d-none d-lg-block"
+              >
+                Admin-Login
+              </Link>
             </div>
           </div>
         </div>
+
         {/* Footer Bottom End */}
         {/* Back to Top */}
         <a href="#" className="back-to-top">
